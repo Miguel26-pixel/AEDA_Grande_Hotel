@@ -1,0 +1,241 @@
+\hypertarget{class_room}{}\doxysection{Room Class Reference}
+\label{class_room}\index{Room@{Room}}
+
+
+{\ttfamily \#include $<$Room.\+h$>$}
+
+Inheritance diagram for Room\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_room}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_room_ac6ef93a7d9c3e1d624e025058d5f16ff}{Room}} ()
+\item 
+\mbox{\hyperlink{class_room_a8ed4410bba2adf79f28a2bc2fb65d8ba}{Room}} (int \mbox{\hyperlink{class_room_a4310313750cfae6b76b9982e81698223}{floor}}, int \mbox{\hyperlink{class_room_ace0776823076279027a43e37096f44a2}{number}}, \mbox{\hyperlink{class_data_base}{Data\+Base}} \&database)
+\item 
+bool \mbox{\hyperlink{class_room_a3069bb9f3c3d13711e69b54014767cad}{operator==}} (const \mbox{\hyperlink{class_room}{Room}} \&room) const
+\item 
+bool \mbox{\hyperlink{class_room_aab66b7228c00af0c89c94f940632fb18}{get\+Available}} () const
+\item 
+int \mbox{\hyperlink{class_room_afcb8389e9de266b10d1c107dceb0b019}{get\+Floor}} () const
+\item 
+int \mbox{\hyperlink{class_room_a55ea5da06d92f6f6a077de67809fb81c}{get\+Number}} () const
+\item 
+int \mbox{\hyperlink{class_room_a97b134c160a98a37c45f787c16a120c1}{get\+Capacity}} () const
+\item 
+virtual void \mbox{\hyperlink{class_room_a1ba8b9b4b1ef225a244eeecf6c2c3d4b}{set\+Available}} (bool avail)
+\item 
+void \mbox{\hyperlink{class_room_a4d35c9ff21951ef9880f2a53a53a1d02}{set\+Floor}} (int \mbox{\hyperlink{class_room_a4310313750cfae6b76b9982e81698223}{floor}})
+\item 
+virtual void \mbox{\hyperlink{class_room_a7a08b441a0ffbd690868612ac94e238c}{set\+Number}} (int \mbox{\hyperlink{class_room_ace0776823076279027a43e37096f44a2}{number}})
+\item 
+virtual void \mbox{\hyperlink{class_room_ac641151e6f5f3cf2ae2571cb31de4500}{set\+Capacity}} (int \mbox{\hyperlink{class_room_abac3fda2314e3f210ac93e2336b9df44}{capacity}})
+\item 
+bool \mbox{\hyperlink{class_room_aa153991b3b12db9d4f4b7d532400b315}{Add\+Room\+Element}} (\mbox{\hyperlink{class_room}{Room}} $\ast$room, std\+::vector$<$ \mbox{\hyperlink{class_room}{Room}} $\ast$ $>$ roomvec)
+\item 
+virtual int \mbox{\hyperlink{class_room_a84fc41c358a601f4f3a98706abbeef0e}{get\+Cleaning\+\_\+products}} () const
+\item 
+virtual std\+::string \mbox{\hyperlink{class_room_a4ae1d82fd5f2a541fde217d271c1d868}{Room\+Type}} ()
+\item 
+virtual const double \mbox{\hyperlink{class_room_a8fe21403310dfb09eb9be9ba0b9a2415}{get\+Base\+\_\+price}} () const
+\item 
+virtual const double \mbox{\hyperlink{class_room_a9243a58283b74b45250243cda070c1db}{get\+Promotion}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_room_af14e85be9c4576a47b4325100ea4dac3}\label{class_room_af14e85be9c4576a47b4325100ea4dac3}} 
+bool \mbox{\hyperlink{class_room_af14e85be9c4576a47b4325100ea4dac3}{available}}
+\begin{DoxyCompactList}\small\item\em private bool available \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_room_a4310313750cfae6b76b9982e81698223}\label{class_room_a4310313750cfae6b76b9982e81698223}} 
+int \mbox{\hyperlink{class_room_a4310313750cfae6b76b9982e81698223}{floor}}
+\begin{DoxyCompactList}\small\item\em private int floor \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_room_ace0776823076279027a43e37096f44a2}\label{class_room_ace0776823076279027a43e37096f44a2}} 
+int \mbox{\hyperlink{class_room_ace0776823076279027a43e37096f44a2}{number}}
+\begin{DoxyCompactList}\small\item\em private int number \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_room_abac3fda2314e3f210ac93e2336b9df44}\label{class_room_abac3fda2314e3f210ac93e2336b9df44}} 
+int \mbox{\hyperlink{class_room_abac3fda2314e3f210ac93e2336b9df44}{capacity}}
+\begin{DoxyCompactList}\small\item\em private int capacity \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_room_a9d57e83234a078d9be525846c863ee3e}\label{class_room_a9d57e83234a078d9be525846c863ee3e}} 
+std\+::vector$<$ \mbox{\hyperlink{class_product}{Product}} $\ast$ $>$ \mbox{\hyperlink{class_room_a9d57e83234a078d9be525846c863ee3e}{products\+\_\+info}}
+\begin{DoxyCompactList}\small\item\em private vector products\+\_\+info \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class \mbox{\hyperlink{class_room}{Room}} Class to create rooms 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_room_ac6ef93a7d9c3e1d624e025058d5f16ff}\label{class_room_ac6ef93a7d9c3e1d624e025058d5f16ff}} 
+\index{Room@{Room}!Room@{Room}}
+\index{Room@{Room}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{Room()}{Room()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Room\+::\+Room (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default Class constructor \mbox{\Hypertarget{class_room_a8ed4410bba2adf79f28a2bc2fb65d8ba}\label{class_room_a8ed4410bba2adf79f28a2bc2fb65d8ba}} 
+\index{Room@{Room}!Room@{Room}}
+\index{Room@{Room}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{Room()}{Room()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Room\+::\+Room (\begin{DoxyParamCaption}\item[{int}]{floor,  }\item[{int}]{number,  }\item[{\mbox{\hyperlink{class_data_base}{Data\+Base}} \&}]{data\+Base }\end{DoxyParamCaption})}
+
+Class constructor 
+\begin{DoxyParams}{Parameters}
+{\em floor} & \\
+\hline
+{\em number} & \\
+\hline
+{\em database} & Class constructor \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_room_aa153991b3b12db9d4f4b7d532400b315}\label{class_room_aa153991b3b12db9d4f4b7d532400b315}} 
+\index{Room@{Room}!AddRoomElement@{AddRoomElement}}
+\index{AddRoomElement@{AddRoomElement}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{AddRoomElement()}{AddRoomElement()}}
+{\footnotesize\ttfamily bool Room\+::\+Add\+Room\+Element (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_room}{Room}} $\ast$}]{room,  }\item[{std\+::vector$<$ \mbox{\hyperlink{class_room}{Room}} $\ast$ $>$}]{roomvec }\end{DoxyParamCaption})}
+
+Class function 
+\begin{DoxyParams}{Parameters}
+{\em room} & \\
+\hline
+{\em roomvec} & Add room to a vector of rooms Return true if success\\
+\hline
+\end{DoxyParams}
+Add room to a vector of rooms \mbox{\Hypertarget{class_room_aab66b7228c00af0c89c94f940632fb18}\label{class_room_aab66b7228c00af0c89c94f940632fb18}} 
+\index{Room@{Room}!getAvailable@{getAvailable}}
+\index{getAvailable@{getAvailable}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{getAvailable()}{getAvailable()}}
+{\footnotesize\ttfamily bool Room\+::get\+Available (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Class function Return bool available
+
+Return bool available \mbox{\Hypertarget{class_room_a8fe21403310dfb09eb9be9ba0b9a2415}\label{class_room_a8fe21403310dfb09eb9be9ba0b9a2415}} 
+\index{Room@{Room}!getBase\_price@{getBase\_price}}
+\index{getBase\_price@{getBase\_price}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{getBase\_price()}{getBase\_price()}}
+{\footnotesize\ttfamily const double Room\+::get\+Base\+\_\+price (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Class virtual function Return 0 
+
+Reimplemented in \mbox{\hyperlink{class_suite_room_a1e16154171bb1613b8d26d434b30d626}{Suite\+Room}}, \mbox{\hyperlink{class_view_room_a746cfec92e6f075d25fca048752355d6}{View\+Room}}, and \mbox{\hyperlink{class_no_view_room_a536eba890aaf81821949d57b5c5d0f75}{No\+View\+Room}}.
+
+\mbox{\Hypertarget{class_room_a97b134c160a98a37c45f787c16a120c1}\label{class_room_a97b134c160a98a37c45f787c16a120c1}} 
+\index{Room@{Room}!getCapacity@{getCapacity}}
+\index{getCapacity@{getCapacity}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{getCapacity()}{getCapacity()}}
+{\footnotesize\ttfamily int Room\+::get\+Capacity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Class function Return int capacity
+
+Return int capacity \mbox{\Hypertarget{class_room_a84fc41c358a601f4f3a98706abbeef0e}\label{class_room_a84fc41c358a601f4f3a98706abbeef0e}} 
+\index{Room@{Room}!getCleaning\_products@{getCleaning\_products}}
+\index{getCleaning\_products@{getCleaning\_products}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{getCleaning\_products()}{getCleaning\_products()}}
+{\footnotesize\ttfamily int Room\+::get\+Cleaning\+\_\+products (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Class virtual function 
+
+Reimplemented in \mbox{\hyperlink{class_suite_room_afc6ac85974004fb4a652ec410160e737}{Suite\+Room}}, \mbox{\hyperlink{class_view_room_ab23d75426cacdfe84428ea1ada9acac0}{View\+Room}}, and \mbox{\hyperlink{class_no_view_room_a4d99cc8b3e14d79c549ab88e844f875d}{No\+View\+Room}}.
+
+\mbox{\Hypertarget{class_room_afcb8389e9de266b10d1c107dceb0b019}\label{class_room_afcb8389e9de266b10d1c107dceb0b019}} 
+\index{Room@{Room}!getFloor@{getFloor}}
+\index{getFloor@{getFloor}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{getFloor()}{getFloor()}}
+{\footnotesize\ttfamily int Room\+::get\+Floor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Class function Return bool available
+
+Return bool available \mbox{\Hypertarget{class_room_a55ea5da06d92f6f6a077de67809fb81c}\label{class_room_a55ea5da06d92f6f6a077de67809fb81c}} 
+\index{Room@{Room}!getNumber@{getNumber}}
+\index{getNumber@{getNumber}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{getNumber()}{getNumber()}}
+{\footnotesize\ttfamily int Room\+::get\+Number (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Class function Return int number
+
+Return int number \mbox{\Hypertarget{class_room_a9243a58283b74b45250243cda070c1db}\label{class_room_a9243a58283b74b45250243cda070c1db}} 
+\index{Room@{Room}!getPromotion@{getPromotion}}
+\index{getPromotion@{getPromotion}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{getPromotion()}{getPromotion()}}
+{\footnotesize\ttfamily const double Room\+::get\+Promotion (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Class virtual function Return 0 
+
+Reimplemented in \mbox{\hyperlink{class_suite_room_aba9044501c4d24772ad4601716ccd6f4}{Suite\+Room}}, \mbox{\hyperlink{class_view_room_ad35fa14917caa7f1f95f542eb2a3886c}{View\+Room}}, and \mbox{\hyperlink{class_no_view_room_aadf45cd8e391846f118409f797e5af3f}{No\+View\+Room}}.
+
+\mbox{\Hypertarget{class_room_a3069bb9f3c3d13711e69b54014767cad}\label{class_room_a3069bb9f3c3d13711e69b54014767cad}} 
+\index{Room@{Room}!operator==@{operator==}}
+\index{operator==@{operator==}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Room\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_room}{Room}} \&}]{room }\end{DoxyParamCaption}) const}
+
+Class operator 
+\begin{DoxyParams}{Parameters}
+{\em room} & Compare two different rooms Return true if they have the same floor and number\\
+\hline
+\end{DoxyParams}
+Compare two different rooms \mbox{\Hypertarget{class_room_a4ae1d82fd5f2a541fde217d271c1d868}\label{class_room_a4ae1d82fd5f2a541fde217d271c1d868}} 
+\index{Room@{Room}!RoomType@{RoomType}}
+\index{RoomType@{RoomType}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{RoomType()}{RoomType()}}
+{\footnotesize\ttfamily virtual std\+::string Room\+::\+Room\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+Class virtual function Return \char`\"{}\+Room\char`\"{} 
+
+Reimplemented in \mbox{\hyperlink{class_suite_room_a62d0fff08a81ea95bf6dc76faf7b19af}{Suite\+Room}}, \mbox{\hyperlink{class_view_room_ad9badd90aa548247f1843da6d987c183}{View\+Room}}, and \mbox{\hyperlink{class_no_view_room_a0bb0a8da670ff78f44247699b9118d45}{No\+View\+Room}}.
+
+\mbox{\Hypertarget{class_room_a1ba8b9b4b1ef225a244eeecf6c2c3d4b}\label{class_room_a1ba8b9b4b1ef225a244eeecf6c2c3d4b}} 
+\index{Room@{Room}!setAvailable@{setAvailable}}
+\index{setAvailable@{setAvailable}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{setAvailable()}{setAvailable()}}
+{\footnotesize\ttfamily void Room\+::set\+Available (\begin{DoxyParamCaption}\item[{bool}]{avail }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Class function 
+\begin{DoxyParams}{Parameters}
+{\em avail} & Set room\textquotesingle{}s available as equal to argument avail\\
+\hline
+\end{DoxyParams}
+Set room\textquotesingle{}s available as equal to argument avail \mbox{\Hypertarget{class_room_ac641151e6f5f3cf2ae2571cb31de4500}\label{class_room_ac641151e6f5f3cf2ae2571cb31de4500}} 
+\index{Room@{Room}!setCapacity@{setCapacity}}
+\index{setCapacity@{setCapacity}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{setCapacity()}{setCapacity()}}
+{\footnotesize\ttfamily void Room\+::set\+Capacity (\begin{DoxyParamCaption}\item[{int}]{capacity }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Class function 
+\begin{DoxyParams}{Parameters}
+{\em capacity} & Set room\textquotesingle{}s floor as equal to argument floor\\
+\hline
+\end{DoxyParams}
+Set room\textquotesingle{}s floor as equal to argument floor \mbox{\Hypertarget{class_room_a4d35c9ff21951ef9880f2a53a53a1d02}\label{class_room_a4d35c9ff21951ef9880f2a53a53a1d02}} 
+\index{Room@{Room}!setFloor@{setFloor}}
+\index{setFloor@{setFloor}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{setFloor()}{setFloor()}}
+{\footnotesize\ttfamily void Room\+::set\+Floor (\begin{DoxyParamCaption}\item[{int}]{floor }\end{DoxyParamCaption})}
+
+Class function 
+\begin{DoxyParams}{Parameters}
+{\em floor} & Set room\textquotesingle{}s floor as equal to argument floor\\
+\hline
+\end{DoxyParams}
+Set room\textquotesingle{}s floor as equal to argument floor \mbox{\Hypertarget{class_room_a7a08b441a0ffbd690868612ac94e238c}\label{class_room_a7a08b441a0ffbd690868612ac94e238c}} 
+\index{Room@{Room}!setNumber@{setNumber}}
+\index{setNumber@{setNumber}!Room@{Room}}
+\doxysubsubsection{\texorpdfstring{setNumber()}{setNumber()}}
+{\footnotesize\ttfamily void Room\+::set\+Number (\begin{DoxyParamCaption}\item[{int}]{number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Class function 
+\begin{DoxyParams}{Parameters}
+{\em number} & Set room\textquotesingle{}s number as equal to argument number\\
+\hline
+\end{DoxyParams}
+Set room\textquotesingle{}s number as equal to argument number 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Room.\+h\item 
+Room.\+cpp\end{DoxyCompactItemize}

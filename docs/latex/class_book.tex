@@ -1,0 +1,154 @@
+\hypertarget{class_book}{}\doxysection{Book Class Reference}
+\label{class_book}\index{Book@{Book}}
+
+
+{\ttfamily \#include $<$Book.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_book_a2eac9e235a08763158f78533f7a83e1f}{Book}} ()
+\item 
+\mbox{\hyperlink{class_book_a96d707733f32d18d4c42d1aba58af704}{Book}} (\mbox{\hyperlink{class_client}{Client}} $\ast$client, \mbox{\hyperlink{class_data_base}{Data\+Base}} $\ast$data\+Base, unsigned int d1, unsigned int m1, unsigned int y1, unsigned int d2, unsigned int m2, unsigned int y2, \mbox{\hyperlink{struct_date}{Date}} $\ast$today)
+\item 
+\mbox{\Hypertarget{class_book_ab3e30472fa37be0dc3e7c20018e69263}\label{class_book_ab3e30472fa37be0dc3e7c20018e69263}} 
+void {\bfseries set\+Room} (\mbox{\hyperlink{class_room}{Room}} $\ast$room)
+\item 
+\mbox{\Hypertarget{class_book_a226397bc911326276e2a694922d15a01}\label{class_book_a226397bc911326276e2a694922d15a01}} 
+void {\bfseries set\+Check\+Date} (\mbox{\hyperlink{struct_date}{Date}} $\ast$data\+\_\+in, \mbox{\hyperlink{struct_date}{Date}} $\ast$data\+\_\+out)
+\item 
+int \mbox{\hyperlink{class_book_aaa34a179e2e145b9d01b52c35e4630c5}{cleaning\+Products\+Needed}} ()
+\item 
+int \mbox{\hyperlink{class_book_ae40d39c8ba84c1db570f5465850c5ed9}{hygiene\+Products\+Needed}} ()
+\item 
+\mbox{\hyperlink{class_room}{Room}} $\ast$ \mbox{\hyperlink{class_book_a2279902cebd7f96aa8bf544b2330c561}{get\+Room}} () const
+\item 
+\mbox{\hyperlink{class_client}{Client}} $\ast$ \mbox{\hyperlink{class_book_a468f62ce53a9a1c129a1a420eb18f44f}{get\+Client}} () const
+\item 
+double \mbox{\hyperlink{class_book_a606a0ad9f244caa9f31639e757e774c8}{get\+Reservation\+\_\+price}} () const
+\item 
+void \mbox{\hyperlink{class_book_acf788c8ea809a6cb3e7d694facb8d5a4}{set\+Reservation\+\_\+price}} (double price)
+\item 
+\mbox{\hyperlink{struct_date}{Date}} \mbox{\hyperlink{class_book_aff9ab0b8a10dabe90a21cfd9482c53ad}{get\+Checkout\+\_\+date}} () const
+\item 
+\mbox{\hyperlink{struct_date}{Date}} \mbox{\hyperlink{class_book_ac53bf0ce2380d0c5cded2d83dbf1046e}{get\+Checkin\+\_\+date}} () const
+\item 
+\mbox{\Hypertarget{class_book_a390d18569116ecf96598b2c9fb446c03}\label{class_book_a390d18569116ecf96598b2c9fb446c03}} 
+\mbox{\hyperlink{struct_date}{Date}} {\bfseries get\+Book\+\_\+date} () const
+\item 
+\mbox{\hyperlink{class_client}{Client}} \mbox{\hyperlink{class_book_ab2a580dc9ccad3bb65d8ad390efff228}{get\+Book\+Client}} () const
+\item 
+bool \mbox{\hyperlink{class_book_a0766313ae05a108f55c8af56e0263214}{operator==}} (\mbox{\hyperlink{class_book}{Book}} book)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class to create reservations It has the information of the rooms that are associated with the reservation A pointer to the client who did the reservation The check-\/in date and check-\/out date The bill of the client 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_book_a2eac9e235a08763158f78533f7a83e1f}\label{class_book_a2eac9e235a08763158f78533f7a83e1f}} 
+\index{Book@{Book}!Book@{Book}}
+\index{Book@{Book}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{Book()}{Book()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Book\+::\+Book (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default constructor of the class \mbox{\hyperlink{class_book}{Book}} \mbox{\Hypertarget{class_book_a96d707733f32d18d4c42d1aba58af704}\label{class_book_a96d707733f32d18d4c42d1aba58af704}} 
+\index{Book@{Book}!Book@{Book}}
+\index{Book@{Book}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{Book()}{Book()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Book\+::\+Book (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_client}{Client}} $\ast$}]{client,  }\item[{\mbox{\hyperlink{class_data_base}{Data\+Base}} $\ast$}]{data\+Base,  }\item[{unsigned int}]{d1,  }\item[{unsigned int}]{m1,  }\item[{unsigned int}]{y1,  }\item[{unsigned int}]{d2,  }\item[{unsigned int}]{m2,  }\item[{unsigned int}]{y2,  }\item[{\mbox{\hyperlink{struct_date}{Date}} $\ast$}]{today }\end{DoxyParamCaption})}
+
+Constructor of the class \mbox{\hyperlink{class_book}{Book}} 
+\begin{DoxyParams}{Parameters}
+{\em client} & \\
+\hline
+{\em data\+Base} & \\
+\hline
+{\em d1,d2,m1,m2,y1,y2} & check-\/in and check-\/out date The arguments are the pointer to the client, the check-\/in date and out The constructor checks which rooms are available {\itshape AVISO} \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_book_aaa34a179e2e145b9d01b52c35e4630c5}\label{class_book_aaa34a179e2e145b9d01b52c35e4630c5}} 
+\index{Book@{Book}!cleaningProductsNeeded@{cleaningProductsNeeded}}
+\index{cleaningProductsNeeded@{cleaningProductsNeeded}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{cleaningProductsNeeded()}{cleaningProductsNeeded()}}
+{\footnotesize\ttfamily int Book\+::cleaning\+Products\+Needed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Class Function Each room has a specific number of cleaning products per day Return the number of cleaning products needed to the reservation
+
+Calculate the number of cleaning products needed to the reservation \mbox{\Hypertarget{class_book_ab2a580dc9ccad3bb65d8ad390efff228}\label{class_book_ab2a580dc9ccad3bb65d8ad390efff228}} 
+\index{Book@{Book}!getBookClient@{getBookClient}}
+\index{getBookClient@{getBookClient}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{getBookClient()}{getBookClient()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_client}{Client}} Book\+::get\+Book\+Client (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Class Function Return the client that made the reservation
+
+Return the client that made the reservation \mbox{\Hypertarget{class_book_ac53bf0ce2380d0c5cded2d83dbf1046e}\label{class_book_ac53bf0ce2380d0c5cded2d83dbf1046e}} 
+\index{Book@{Book}!getCheckin\_date@{getCheckin\_date}}
+\index{getCheckin\_date@{getCheckin\_date}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{getCheckin\_date()}{getCheckin\_date()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_date}{Date}} Book\+::get\+Checkin\+\_\+date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Class Function Return a pointer to the checkout\+\_\+date
+
+Return a pointer to the checkin\+\_\+date \mbox{\Hypertarget{class_book_aff9ab0b8a10dabe90a21cfd9482c53ad}\label{class_book_aff9ab0b8a10dabe90a21cfd9482c53ad}} 
+\index{Book@{Book}!getCheckout\_date@{getCheckout\_date}}
+\index{getCheckout\_date@{getCheckout\_date}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{getCheckout\_date()}{getCheckout\_date()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_date}{Date}} Book\+::get\+Checkout\+\_\+date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Class Function Return a pointer to the checkin\+\_\+date
+
+Return a pointer to the checkout\+\_\+date \mbox{\Hypertarget{class_book_a468f62ce53a9a1c129a1a420eb18f44f}\label{class_book_a468f62ce53a9a1c129a1a420eb18f44f}} 
+\index{Book@{Book}!getClient@{getClient}}
+\index{getClient@{getClient}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{getClient()}{getClient()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_client}{Client}} $\ast$ Book\+::get\+Client (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Class Function Return the pointer to the client that made the reservation
+
+Return the pointer to the client that made the reservation \mbox{\Hypertarget{class_book_a606a0ad9f244caa9f31639e757e774c8}\label{class_book_a606a0ad9f244caa9f31639e757e774c8}} 
+\index{Book@{Book}!getReservation\_price@{getReservation\_price}}
+\index{getReservation\_price@{getReservation\_price}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{getReservation\_price()}{getReservation\_price()}}
+{\footnotesize\ttfamily double Book\+::get\+Reservation\+\_\+price (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Class Function Return the price of the reservation
+
+Return the price of the reservation \mbox{\Hypertarget{class_book_a2279902cebd7f96aa8bf544b2330c561}\label{class_book_a2279902cebd7f96aa8bf544b2330c561}} 
+\index{Book@{Book}!getRoom@{getRoom}}
+\index{getRoom@{getRoom}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{getRoom()}{getRoom()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_room}{Room}} $\ast$ Book\+::get\+Room (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Class Function Return the booked room \mbox{\Hypertarget{class_book_ae40d39c8ba84c1db570f5465850c5ed9}\label{class_book_ae40d39c8ba84c1db570f5465850c5ed9}} 
+\index{Book@{Book}!hygieneProductsNeeded@{hygieneProductsNeeded}}
+\index{hygieneProductsNeeded@{hygieneProductsNeeded}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{hygieneProductsNeeded()}{hygieneProductsNeeded()}}
+{\footnotesize\ttfamily int Book\+::hygiene\+Products\+Needed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Class Function Each client spends 2 hygiene products per day Return the number of hygiene products needed to the reservation
+
+Calculate the number of hygiene products needed to the reservation \mbox{\Hypertarget{class_book_a0766313ae05a108f55c8af56e0263214}\label{class_book_a0766313ae05a108f55c8af56e0263214}} 
+\index{Book@{Book}!operator==@{operator==}}
+\index{operator==@{operator==}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Book\+::operator== (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_book}{Book}}}]{book }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Class Operator Compare two different books True if the client, checkin\+\_\+date and checkout\+\_\+date are equal \mbox{\Hypertarget{class_book_acf788c8ea809a6cb3e7d694facb8d5a4}\label{class_book_acf788c8ea809a6cb3e7d694facb8d5a4}} 
+\index{Book@{Book}!setReservation\_price@{setReservation\_price}}
+\index{setReservation\_price@{setReservation\_price}!Book@{Book}}
+\doxysubsubsection{\texorpdfstring{setReservation\_price()}{setReservation\_price()}}
+{\footnotesize\ttfamily void Book\+::set\+Reservation\+\_\+price (\begin{DoxyParamCaption}\item[{double}]{price }\end{DoxyParamCaption})}
+
+Class Function Set the price of reservation as equal to the value of variable price
+
+Set the price of reservation as equal to the value of variable price 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Book.\+h\item 
+Book.\+cpp\end{DoxyCompactItemize}

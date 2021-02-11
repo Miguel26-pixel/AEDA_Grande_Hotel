@@ -1,0 +1,16 @@
+Registration: 12-34-AA
+Km: 13
+Seats: 5
+------------------------------
+Registration: UT-36-19
+Km: 900000
+Seats: 2
+------------------------------
+Registration: AA-00-00
+Km: 13
+Seats: 4
+------------------------------
+Registration: AA-BB-CC
+Km: 39
+Seats: 5
+------------------------------

@@ -1,0 +1,333 @@
+\hypertarget{class_data_base}{}\doxysection{Data\+Base Class Reference}
+\label{class_data_base}\index{DataBase@{DataBase}}
+
+
+{\ttfamily \#include $<$Data\+Base.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_data_base_a9fbd4936704ce4de391f92e92a072074}{Data\+Base}} ()
+\item 
+std\+::vector$<$ \mbox{\hyperlink{class_employee}{Employee}} $\ast$ $>$ \mbox{\hyperlink{class_data_base_aab25c3e18bb5ff98c5359e8c2aa62220}{find\+Employee\+By\+Salary}} (double salary)
+\item 
+std\+::vector$<$ \mbox{\hyperlink{class_employee}{Employee}} $\ast$ $>$ \mbox{\hyperlink{class_data_base_a873ea63feb5d53e06ddab3285c3564e5}{find\+Employee\+By\+Role}} (std\+::string role)
+\item 
+double \mbox{\hyperlink{class_data_base_a8ef79ed82acb18318b0ea521d78a2cba}{total\+Cost\+Month}} ()
+\item 
+double \mbox{\hyperlink{class_data_base_a737ba6348fb66a7856c8e7c893eaf0ab}{calculate\+Profit}} ()
+\item 
+unsigned int \mbox{\hyperlink{class_data_base_a2619d97d0b8fbf34af8921fbf1f02fa1}{calculate\+Book\+Days}} (std\+::vector$<$ unsigned int $>$ out\+\_\+date, std\+::vector$<$ unsigned int $>$ in\+\_\+date)
+\item 
+bool \mbox{\hyperlink{class_data_base_a8931d7dbc53b870871584fa9325222bf}{add\+Employee\+Element}} (\mbox{\hyperlink{class_employee}{Employee}} $\ast$employee)
+\item 
+bool \mbox{\hyperlink{class_data_base_a65a0b03226d44366598ddb43a4dc1c40}{add\+Room\+Element}} (\mbox{\hyperlink{class_room}{Room}} $\ast$room)
+\item 
+\mbox{\Hypertarget{class_data_base_a065ed07209e8937948458faa3ec22060}\label{class_data_base_a065ed07209e8937948458faa3ec22060}} 
+void {\bfseries add\+Frequent\+Client} (\mbox{\hyperlink{class_client_initial}{Client\+Initial}} ci)
+\item 
+\mbox{\Hypertarget{class_data_base_aa1b47e3145791b2ac3d4d8656e9c4471}\label{class_data_base_aa1b47e3145791b2ac3d4d8656e9c4471}} 
+void {\bfseries reset\+Buy\+Products} ()
+\item 
+void \mbox{\hyperlink{class_data_base_a9c39bc76bfffa7faddc0afb00157ec81}{update\+Kms}} (int kms, \mbox{\hyperlink{class_vehicle}{Vehicle}} $\ast$v)
+\item 
+\mbox{\hyperlink{class_vehicle}{Vehicle}} $\ast$ \mbox{\hyperlink{class_data_base_ac4ec431fe5de622ee3cf6016efa82538}{best\+Vehicle}} (int people)
+\item 
+void \mbox{\hyperlink{class_data_base_a8278650a6e915d66bcba7f26c4ea35f4}{vehicles\+To\+Deliver}} ()
+\item 
+void \mbox{\hyperlink{class_data_base_a91fb27bf34632ed6fb133a8bc38021c2}{deliver\+Vehicles}} (\mbox{\hyperlink{class_vehicle}{Vehicle}} $\ast$v)
+\item 
+void \mbox{\hyperlink{class_data_base_a9ee0594a4817ee6f7056451bd8028a0f}{buy\+Chosen\+Product}} (int no\+\_\+product)
+\item 
+void \mbox{\hyperlink{class_data_base_a41660dbfb940d414840adf3e29883b89}{buy\+Top\+Product}} ()
+\item 
+bool \mbox{\hyperlink{class_data_base_a36480b1dc91e06747a7a0a4b5947757a}{buy\+Product\+In\+Interval}} (int min, int max)
+\item 
+array$<$ int, 2 $>$ \mbox{\hyperlink{class_data_base_adbe7a66f1cd39066897d5789a8cd92b2}{missing\+Products}} ()
+\item 
+void \mbox{\hyperlink{class_data_base_a07df6dfa72c5bb9f53ad66d4755266b3}{reset\+Vehicles}} ()
+\item 
+bool \mbox{\hyperlink{class_data_base_accdb600dc45bfbbeb652b66d4c492ae2}{apply\+Promotion\+By\+Initial}} (char initial)
+\item 
+\mbox{\Hypertarget{class_data_base_aa41631e19ba27c318fa67b55201ce3d3}\label{class_data_base_aa41631e19ba27c318fa67b55201ce3d3}} 
+std\+::vector$<$ \mbox{\hyperlink{class_client}{Client}} $\ast$ $>$ \mbox{\hyperlink{class_data_base_aa41631e19ba27c318fa67b55201ce3d3}{get\+Clients}} () const
+\begin{DoxyCompactList}\small\item\em Returns the private vector clients. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_data_base_a2c70b15f76f68e7236f8f84b0c244a78}\label{class_data_base_a2c70b15f76f68e7236f8f84b0c244a78}} 
+std\+::vector$<$ \mbox{\hyperlink{class_room}{Room}} $\ast$ $>$ \mbox{\hyperlink{class_data_base_a2c70b15f76f68e7236f8f84b0c244a78}{get\+Rooms}} () const
+\begin{DoxyCompactList}\small\item\em Returns the private vector rooms. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_data_base_a699e30265a368f2151145ee55087a2e7}\label{class_data_base_a699e30265a368f2151145ee55087a2e7}} 
+std\+::vector$<$ \mbox{\hyperlink{class_employee}{Employee}} $\ast$ $>$ \mbox{\hyperlink{class_data_base_a699e30265a368f2151145ee55087a2e7}{get\+Employees}} () const
+\begin{DoxyCompactList}\small\item\em Returns the private vector employees. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_data_base_a6a699fd821e68d6be2ffc538cf358281}\label{class_data_base_a6a699fd821e68d6be2ffc538cf358281}} 
+std\+::vector$<$ \mbox{\hyperlink{class_product}{Product}} $\ast$ $>$ \mbox{\hyperlink{class_data_base_a6a699fd821e68d6be2ffc538cf358281}{get\+Stock\+\_\+products}} () const
+\begin{DoxyCompactList}\small\item\em Returns the private vector stock\+\_\+products. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_data_base_a1ae9eba04483fe6564169e6af0718ec4}\label{class_data_base_a1ae9eba04483fe6564169e6af0718ec4}} 
+std\+::priority\+\_\+queue$<$ \mbox{\hyperlink{class_buy_product}{Buy\+Product}} $>$ \mbox{\hyperlink{class_data_base_a1ae9eba04483fe6564169e6af0718ec4}{get\+Buy\+\_\+products}} ()
+\begin{DoxyCompactList}\small\item\em Returns the private buy\+\_\+products. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_data_base_af00e89ebc1a07056a845f5df3d172bd5}\label{class_data_base_af00e89ebc1a07056a845f5df3d172bd5}} 
+std\+::vector$<$ \mbox{\hyperlink{class_book}{Book}} $\ast$ $>$ \mbox{\hyperlink{class_data_base_af00e89ebc1a07056a845f5df3d172bd5}{get\+Books}} () const
+\begin{DoxyCompactList}\small\item\em Returns the private vector books. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_data_base_a459a4c18e83d2427fec05e316629846d}\label{class_data_base_a459a4c18e83d2427fec05e316629846d}} 
+std\+::vector$<$ \mbox{\hyperlink{class_book}{Book}} $\ast$ $>$ \mbox{\hyperlink{class_data_base_a459a4c18e83d2427fec05e316629846d}{get\+Temp\+\_\+books}} () const
+\begin{DoxyCompactList}\small\item\em Returns the private vector temporary\+\_\+books. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_data_base_a6cdabe77107d11f2f97d6bb9cea06c16}\label{class_data_base_a6cdabe77107d11f2f97d6bb9cea06c16}} 
+std\+::vector$<$ \mbox{\hyperlink{class_client}{Client}} $\ast$ $>$ $\ast$ {\bfseries get\+Pointer\+Clients} ()
+\item 
+\mbox{\Hypertarget{class_data_base_a2355cacc1fb88cfacc27a23928e982b9}\label{class_data_base_a2355cacc1fb88cfacc27a23928e982b9}} 
+std\+::vector$<$ \mbox{\hyperlink{class_product}{Product}} $\ast$ $>$ $\ast$ {\bfseries get\+Pointer\+Stock\+\_\+products} ()
+\item 
+\mbox{\Hypertarget{class_data_base_a4660b5719f2c412d6c35959cb1b1b8ca}\label{class_data_base_a4660b5719f2c412d6c35959cb1b1b8ca}} 
+std\+::vector$<$ \mbox{\hyperlink{class_book}{Book}} $\ast$ $>$ $\ast$ {\bfseries get\+Pointer\+Books} ()
+\item 
+\mbox{\Hypertarget{class_data_base_aef5107403f8ca75435c9becd4f409cbf}\label{class_data_base_aef5107403f8ca75435c9becd4f409cbf}} 
+std\+::vector$<$ \mbox{\hyperlink{class_book}{Book}} $\ast$ $>$ $\ast$ {\bfseries get\+Pointer\+Temp\+\_\+books} ()
+\item 
+\mbox{\Hypertarget{class_data_base_a1528a1227340ffeff6d566d06457a9fe}\label{class_data_base_a1528a1227340ffeff6d566d06457a9fe}} 
+std\+::priority\+\_\+queue$<$ \mbox{\hyperlink{class_buy_product}{Buy\+Product}} $>$ $\ast$ {\bfseries get\+Pointer\+Buy\+\_\+products} ()
+\item 
+\mbox{\Hypertarget{class_data_base_ad3a4b3758635ac1d6367aac2f90448e9}\label{class_data_base_ad3a4b3758635ac1d6367aac2f90448e9}} 
+std\+::priority\+\_\+queue$<$ \mbox{\hyperlink{class_buy_product}{Buy\+Product}} $>$ $\ast$ {\bfseries get\+Pointer\+Shop\+Inf\+Stock} ()
+\item 
+\mbox{\Hypertarget{class_data_base_aee3d45be71da9b42cef8a33146476fbb}\label{class_data_base_aee3d45be71da9b42cef8a33146476fbb}} 
+tab\+HClient {\bfseries get\+Frequent\+\_\+clients} ()
+\item 
+\mbox{\Hypertarget{class_data_base_a2109ff17e021e9f612c68131f73dbc07}\label{class_data_base_a2109ff17e021e9f612c68131f73dbc07}} 
+\mbox{\hyperlink{class_b_s_t}{BST}}$<$ \mbox{\hyperlink{class_vehicle}{Vehicle}} $\ast$ $>$ $\ast$ {\bfseries get\+Pointer\+Vehicles\+\_\+list} ()
+\item 
+\mbox{\Hypertarget{class_data_base_a60690d990daa7f03166e463f9001c216}\label{class_data_base_a60690d990daa7f03166e463f9001c216}} 
+\mbox{\hyperlink{class_b_s_t}{BST}}$<$ \mbox{\hyperlink{class_vehicle}{Vehicle}} $\ast$ $>$ {\bfseries get\+Vehicles\+To\+Deliver} ()
+\item 
+\mbox{\Hypertarget{class_data_base_ad764ff9ae68ef4ae733185436f32b399}\label{class_data_base_ad764ff9ae68ef4ae733185436f32b399}} 
+\mbox{\hyperlink{class_b_s_t}{BST}}$<$ \mbox{\hyperlink{class_vehicle}{Vehicle}} $\ast$ $>$ $\ast$ {\bfseries get\+Pointer\+Vehicle\+\_\+stock\+\_\+inf} ()
+\item 
+\mbox{\Hypertarget{class_data_base_acadfb7aeb51b979edb4d5146bfbeefe9}\label{class_data_base_acadfb7aeb51b979edb4d5146bfbeefe9}} 
+int {\bfseries get\+Products\+Costs} ()
+\item 
+\mbox{\Hypertarget{class_data_base_a761f3bdc19f4de6c51de3240893e557c}\label{class_data_base_a761f3bdc19f4de6c51de3240893e557c}} 
+void {\bfseries set\+Employees\+Payment} (bool ep)
+\item 
+\mbox{\Hypertarget{class_data_base_a68d506bebe9a889cedc11fd9e57cabee}\label{class_data_base_a68d506bebe9a889cedc11fd9e57cabee}} 
+bool {\bfseries get\+Employees\+Payment} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_data_base_a6cd288e5a8a7c4a67f9b12040e6ee732}{product\+Stock\+Interval}} (int min, int max, \mbox{\hyperlink{class_buy_product}{Buy\+Product}} bp)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class \mbox{\hyperlink{class_data_base}{Data\+Base}} Class to create the database of the system Where all the data is saved while the program is running 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_data_base_a9fbd4936704ce4de391f92e92a072074}\label{class_data_base_a9fbd4936704ce4de391f92e92a072074}} 
+\index{DataBase@{DataBase}!DataBase@{DataBase}}
+\index{DataBase@{DataBase}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{DataBase()}{DataBase()}}
+{\footnotesize\ttfamily Data\+Base\+::\+Data\+Base (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default \mbox{\hyperlink{class_data_base}{Data\+Base}} construct 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_data_base_a8931d7dbc53b870871584fa9325222bf}\label{class_data_base_a8931d7dbc53b870871584fa9325222bf}} 
+\index{DataBase@{DataBase}!addEmployeeElement@{addEmployeeElement}}
+\index{addEmployeeElement@{addEmployeeElement}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{addEmployeeElement()}{addEmployeeElement()}}
+{\footnotesize\ttfamily bool Data\+Base\+::add\+Employee\+Element (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_employee}{Employee}} $\ast$}]{employee }\end{DoxyParamCaption})}
+
+Class function Adds the employee in the employees\textquotesingle{} vector 
+\begin{DoxyParams}{Parameters}
+{\em employee} & \+: pointer to the employee to add \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_data_base_a65a0b03226d44366598ddb43a4dc1c40}\label{class_data_base_a65a0b03226d44366598ddb43a4dc1c40}} 
+\index{DataBase@{DataBase}!addRoomElement@{addRoomElement}}
+\index{addRoomElement@{addRoomElement}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{addRoomElement()}{addRoomElement()}}
+{\footnotesize\ttfamily bool Data\+Base\+::add\+Room\+Element (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_room}{Room}} $\ast$}]{room }\end{DoxyParamCaption})}
+
+Class function Adds the room in the room\textquotesingle{}s vector 
+\begin{DoxyParams}{Parameters}
+{\em room} & \+: pointer to the room to add \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_data_base_accdb600dc45bfbbeb652b66d4c492ae2}\label{class_data_base_accdb600dc45bfbbeb652b66d4c492ae2}} 
+\index{DataBase@{DataBase}!applyPromotionByInitial@{applyPromotionByInitial}}
+\index{applyPromotionByInitial@{applyPromotionByInitial}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{applyPromotionByInitial()}{applyPromotionByInitial()}}
+{\footnotesize\ttfamily bool Data\+Base\+::apply\+Promotion\+By\+Initial (\begin{DoxyParamCaption}\item[{char}]{initial }\end{DoxyParamCaption})}
+
+Allows manager to apply Christmas promotion to frequent clients with given initial 
+\begin{DoxyParams}{Parameters}
+{\em initial} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_data_base_ac4ec431fe5de622ee3cf6016efa82538}\label{class_data_base_ac4ec431fe5de622ee3cf6016efa82538}} 
+\index{DataBase@{DataBase}!bestVehicle@{bestVehicle}}
+\index{bestVehicle@{bestVehicle}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{bestVehicle()}{bestVehicle()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_vehicle}{Vehicle}} $\ast$ Data\+Base\+::best\+Vehicle (\begin{DoxyParamCaption}\item[{int}]{people }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em people} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+best vehicle with the mininum capacity of people 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_data_base_a9ee0594a4817ee6f7056451bd8028a0f}\label{class_data_base_a9ee0594a4817ee6f7056451bd8028a0f}} 
+\index{DataBase@{DataBase}!buyChosenProduct@{buyChosenProduct}}
+\index{buyChosenProduct@{buyChosenProduct}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{buyChosenProduct()}{buyChosenProduct()}}
+{\footnotesize\ttfamily void Data\+Base\+::buy\+Chosen\+Product (\begin{DoxyParamCaption}\item[{int}]{no\+\_\+product }\end{DoxyParamCaption})}
+
+Adds product to temp priority queue Removes it from buy\+\_\+products 
+\begin{DoxyParams}{Parameters}
+{\em no\+\_\+product} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_data_base_a36480b1dc91e06747a7a0a4b5947757a}\label{class_data_base_a36480b1dc91e06747a7a0a4b5947757a}} 
+\index{DataBase@{DataBase}!buyProductInInterval@{buyProductInInterval}}
+\index{buyProductInInterval@{buyProductInInterval}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{buyProductInInterval()}{buyProductInInterval()}}
+{\footnotesize\ttfamily bool Data\+Base\+::buy\+Product\+In\+Interval (\begin{DoxyParamCaption}\item[{int}]{min,  }\item[{int}]{max }\end{DoxyParamCaption})}
+
+Buys products according to \mbox{\hyperlink{class_data_base_a6cd288e5a8a7c4a67f9b12040e6ee732}{product\+Stock\+Interval()}} output 
+\begin{DoxyParams}{Parameters}
+{\em min} & \\
+\hline
+{\em max} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_data_base_a41660dbfb940d414840adf3e29883b89}\label{class_data_base_a41660dbfb940d414840adf3e29883b89}} 
+\index{DataBase@{DataBase}!buyTopProduct@{buyTopProduct}}
+\index{buyTopProduct@{buyTopProduct}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{buyTopProduct()}{buyTopProduct()}}
+{\footnotesize\ttfamily void Data\+Base\+::buy\+Top\+Product (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Buy product on top of the queue \mbox{\Hypertarget{class_data_base_a2619d97d0b8fbf34af8921fbf1f02fa1}\label{class_data_base_a2619d97d0b8fbf34af8921fbf1f02fa1}} 
+\index{DataBase@{DataBase}!calculateBookDays@{calculateBookDays}}
+\index{calculateBookDays@{calculateBookDays}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{calculateBookDays()}{calculateBookDays()}}
+{\footnotesize\ttfamily unsigned int Data\+Base\+::calculate\+Book\+Days (\begin{DoxyParamCaption}\item[{std\+::vector$<$ unsigned int $>$}]{out\+\_\+date,  }\item[{std\+::vector$<$ unsigned int $>$}]{in\+\_\+date }\end{DoxyParamCaption})}
+
+Returns the number of days between in\+\_\+date and out\+\_\+date Used to perform calculations useful to books 
+\begin{DoxyParams}{Parameters}
+{\em out\+\_\+date} & \\
+\hline
+{\em in\+\_\+date} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_data_base_a737ba6348fb66a7856c8e7c893eaf0ab}\label{class_data_base_a737ba6348fb66a7856c8e7c893eaf0ab}} 
+\index{DataBase@{DataBase}!calculateProfit@{calculateProfit}}
+\index{calculateProfit@{calculateProfit}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{calculateProfit()}{calculateProfit()}}
+{\footnotesize\ttfamily double Data\+Base\+::calculate\+Profit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Class function Calculates the total profit \mbox{\Hypertarget{class_data_base_a91fb27bf34632ed6fb133a8bc38021c2}\label{class_data_base_a91fb27bf34632ed6fb133a8bc38021c2}} 
+\index{DataBase@{DataBase}!deliverVehicles@{deliverVehicles}}
+\index{deliverVehicles@{deliverVehicles}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{deliverVehicles()}{deliverVehicles()}}
+{\footnotesize\ttfamily void Data\+Base\+::deliver\+Vehicles (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vehicle}{Vehicle}} $\ast$}]{v }\end{DoxyParamCaption})}
+
+Removes vehicles from vehicles\+\_\+to\+\_\+deliver 
+\begin{DoxyParams}{Parameters}
+{\em v} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_data_base_a873ea63feb5d53e06ddab3285c3564e5}\label{class_data_base_a873ea63feb5d53e06ddab3285c3564e5}} 
+\index{DataBase@{DataBase}!findEmployeeByRole@{findEmployeeByRole}}
+\index{findEmployeeByRole@{findEmployeeByRole}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{findEmployeeByRole()}{findEmployeeByRole()}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{class_employee}{Employee}}$\ast$$>$ Data\+Base\+::find\+Employee\+By\+Role (\begin{DoxyParamCaption}\item[{std\+::string}]{role }\end{DoxyParamCaption})}
+
+Class Function returns vector with all the employees which have role == argument role 
+\begin{DoxyParams}{Parameters}
+{\em role} & \+: argument to search \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_data_base_aab25c3e18bb5ff98c5359e8c2aa62220}\label{class_data_base_aab25c3e18bb5ff98c5359e8c2aa62220}} 
+\index{DataBase@{DataBase}!findEmployeeBySalary@{findEmployeeBySalary}}
+\index{findEmployeeBySalary@{findEmployeeBySalary}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{findEmployeeBySalary()}{findEmployeeBySalary()}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{class_employee}{Employee}}$\ast$$>$ Data\+Base\+::find\+Employee\+By\+Salary (\begin{DoxyParamCaption}\item[{double}]{salary }\end{DoxyParamCaption})}
+
+Class Function returns vector with all the employees which have salary == argument salary 
+\begin{DoxyParams}{Parameters}
+{\em salary} & argument to search \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_data_base_adbe7a66f1cd39066897d5789a8cd92b2}\label{class_data_base_adbe7a66f1cd39066897d5789a8cd92b2}} 
+\index{DataBase@{DataBase}!missingProducts@{missingProducts}}
+\index{missingProducts@{missingProducts}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{missingProducts()}{missingProducts()}}
+{\footnotesize\ttfamily array$<$ int, 2 $>$ Data\+Base\+::missing\+Products (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Checks which products are missing \begin{DoxyReturn}{Returns}
+array of products to buy 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_data_base_a6cd288e5a8a7c4a67f9b12040e6ee732}\label{class_data_base_a6cd288e5a8a7c4a67f9b12040e6ee732}} 
+\index{DataBase@{DataBase}!productStockInterval@{productStockInterval}}
+\index{productStockInterval@{productStockInterval}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{productStockInterval()}{productStockInterval()}}
+{\footnotesize\ttfamily bool Data\+Base\+::product\+Stock\+Interval (\begin{DoxyParamCaption}\item[{int}]{min,  }\item[{int}]{max,  }\item[{\mbox{\hyperlink{class_buy_product}{Buy\+Product}}}]{bp }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Checks if product stock is between min and max values 
+\begin{DoxyParams}{Parameters}
+{\em min} & \\
+\hline
+{\em max} & \\
+\hline
+{\em bp} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_data_base_a07df6dfa72c5bb9f53ad66d4755266b3}\label{class_data_base_a07df6dfa72c5bb9f53ad66d4755266b3}} 
+\index{DataBase@{DataBase}!resetVehicles@{resetVehicles}}
+\index{resetVehicles@{resetVehicles}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{resetVehicles()}{resetVehicles()}}
+{\footnotesize\ttfamily void Data\+Base\+::reset\+Vehicles (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Resets the vehicles in vehicles\+\_\+list \mbox{\Hypertarget{class_data_base_a8ef79ed82acb18318b0ea521d78a2cba}\label{class_data_base_a8ef79ed82acb18318b0ea521d78a2cba}} 
+\index{DataBase@{DataBase}!totalCostMonth@{totalCostMonth}}
+\index{totalCostMonth@{totalCostMonth}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{totalCostMonth()}{totalCostMonth()}}
+{\footnotesize\ttfamily double Data\+Base\+::total\+Cost\+Month (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Class function Calculates the total cost of the month \mbox{\Hypertarget{class_data_base_a9c39bc76bfffa7faddc0afb00157ec81}\label{class_data_base_a9c39bc76bfffa7faddc0afb00157ec81}} 
+\index{DataBase@{DataBase}!updateKms@{updateKms}}
+\index{updateKms@{updateKms}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{updateKms()}{updateKms()}}
+{\footnotesize\ttfamily void Data\+Base\+::update\+Kms (\begin{DoxyParamCaption}\item[{int}]{kms,  }\item[{\mbox{\hyperlink{class_vehicle}{Vehicle}} $\ast$}]{v }\end{DoxyParamCaption})}
+
+Increments vehicles kms 
+\begin{DoxyParams}{Parameters}
+{\em kms} & \\
+\hline
+{\em v} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_data_base_a8278650a6e915d66bcba7f26c4ea35f4}\label{class_data_base_a8278650a6e915d66bcba7f26c4ea35f4}} 
+\index{DataBase@{DataBase}!vehiclesToDeliver@{vehiclesToDeliver}}
+\index{vehiclesToDeliver@{vehiclesToDeliver}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{vehiclesToDeliver()}{vehiclesToDeliver()}}
+{\footnotesize\ttfamily void Data\+Base\+::vehicles\+To\+Deliver (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Transfers vehicles with 5000+ kms from vehicles\+\_\+list to vehicles\+\_\+to\+\_\+deliver 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Data\+Base.\+h\item 
+Data\+Base.\+cpp\end{DoxyCompactItemize}

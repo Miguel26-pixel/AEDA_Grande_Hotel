@@ -1,0 +1,12 @@
+Job: Reception
+Name: Luisa
+NIF: 987654321
+WorkYears: 2
+Salary: 9089.000000
+-----------------------------------------------------
+Job: Manager
+Name: Miguel
+NIF: 123456789
+WorkYears: 20
+Salary: 3.0
+-----------------------------------------------------

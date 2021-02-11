@@ -1,0 +1,77 @@
+\hypertarget{class_search}{}\doxysection{Search Class Reference}
+\label{class_search}\index{Search@{Search}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_search_af629e7254d367d2b2cacfb0699c9de31}{Search}} ()
+\item 
+\mbox{\hyperlink{class_search_a7c54440dede30e58eb798c35a2846816}{Search}} (\mbox{\hyperlink{class_data_base}{Data\+Base}} data\+Base)
+\item 
+std\+::vector$<$ \mbox{\hyperlink{class_employee}{Employee}} $\ast$ $>$ \mbox{\hyperlink{class_search_a2d9f1facf48730dade6a1818f343cc26}{sort\+Employees\+By\+Salary}} ()
+\item 
+std\+::vector$<$ \mbox{\hyperlink{class_employee}{Employee}} $\ast$ $>$ \mbox{\hyperlink{class_search_a163f85194848bdbdb1e42ea2840bc810}{find\+Employee\+By\+Role}} (std\+::string role)
+\item 
+std\+::vector$<$ \mbox{\hyperlink{class_book}{Book}} $\ast$ $>$ \mbox{\hyperlink{class_search_a0d5ea086a83965ba3a971e3937af5a5c}{day\+Books}} (\mbox{\hyperlink{struct_date}{Date}} date)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_search_af629e7254d367d2b2cacfb0699c9de31}\label{class_search_af629e7254d367d2b2cacfb0699c9de31}} 
+\index{Search@{Search}!Search@{Search}}
+\index{Search@{Search}!Search@{Search}}
+\doxysubsubsection{\texorpdfstring{Search()}{Search()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Search\+::\+Search (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default Class constructor \mbox{\Hypertarget{class_search_a7c54440dede30e58eb798c35a2846816}\label{class_search_a7c54440dede30e58eb798c35a2846816}} 
+\index{Search@{Search}!Search@{Search}}
+\index{Search@{Search}!Search@{Search}}
+\doxysubsubsection{\texorpdfstring{Search()}{Search()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Search\+::\+Search (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_data_base}{Data\+Base}}}]{database1 }\end{DoxyParamCaption})}
+
+Class constructor 
+\begin{DoxyParams}{Parameters}
+{\em database} & Class constructor \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_search_a0d5ea086a83965ba3a971e3937af5a5c}\label{class_search_a0d5ea086a83965ba3a971e3937af5a5c}} 
+\index{Search@{Search}!dayBooks@{dayBooks}}
+\index{dayBooks@{dayBooks}!Search@{Search}}
+\doxysubsubsection{\texorpdfstring{dayBooks()}{dayBooks()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{class_book}{Book}} $\ast$ $>$ Search\+::day\+Books (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_date}{Date}}}]{date }\end{DoxyParamCaption})}
+
+Class Function 
+\begin{DoxyParams}{Parameters}
+{\em date} & Return vector with rooms which date equal to the argument date\\
+\hline
+\end{DoxyParams}
+Return books vector for the given date \mbox{\Hypertarget{class_search_a163f85194848bdbdb1e42ea2840bc810}\label{class_search_a163f85194848bdbdb1e42ea2840bc810}} 
+\index{Search@{Search}!findEmployeeByRole@{findEmployeeByRole}}
+\index{findEmployeeByRole@{findEmployeeByRole}!Search@{Search}}
+\doxysubsubsection{\texorpdfstring{findEmployeeByRole()}{findEmployeeByRole()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{class_employee}{Employee}} $\ast$ $>$ Search\+::find\+Employee\+By\+Role (\begin{DoxyParamCaption}\item[{std\+::string}]{role }\end{DoxyParamCaption})}
+
+Class Function 
+\begin{DoxyParams}{Parameters}
+{\em role} & Return vector with employees which role equal to the argument role\\
+\hline
+\end{DoxyParams}
+Return vector with employees which role equal to the argument role \mbox{\Hypertarget{class_search_a2d9f1facf48730dade6a1818f343cc26}\label{class_search_a2d9f1facf48730dade6a1818f343cc26}} 
+\index{Search@{Search}!sortEmployeesBySalary@{sortEmployeesBySalary}}
+\index{sortEmployeesBySalary@{sortEmployeesBySalary}!Search@{Search}}
+\doxysubsubsection{\texorpdfstring{sortEmployeesBySalary()}{sortEmployeesBySalary()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{class_employee}{Employee}} $\ast$ $>$ Search\+::sort\+Employees\+By\+Salary (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Class Function 
+\begin{DoxyParams}{Parameters}
+{\em salary} & Return vector with employees which salary equal to the argument salary\\
+\hline
+\end{DoxyParams}
+Return vector with employees which salary equal to the argument salary 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Search.\+h\item 
+Search.\+cpp\end{DoxyCompactItemize}

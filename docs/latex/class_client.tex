@@ -1,0 +1,179 @@
+\hypertarget{class_client}{}\doxysection{Client Class Reference}
+\label{class_client}\index{Client@{Client}}
+
+
+{\ttfamily \#include $<$Client.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_client_ae51af7aa6b8f591496a8f6a4a87a14bf}{Client}} ()
+\item 
+\mbox{\hyperlink{class_client_a83dbeb37d33b64f914c18f3123b4e5d3}{Client}} (std\+::string name, int group\+\_\+size, unsigned int nif, unsigned int stays)
+\item 
+bool \mbox{\hyperlink{class_client_a23ca11751db0bfcfca135ad74a3416dd}{operator==}} (const \mbox{\hyperlink{class_client}{Client}} \&client) const
+\item 
+\mbox{\Hypertarget{class_client_a54101a2d4cecec96fb6d631950063336}\label{class_client_a54101a2d4cecec96fb6d631950063336}} 
+bool {\bfseries increment\+Stays} ()
+\item 
+bool \mbox{\hyperlink{class_client_ae1bb9fad5c5141a9ff6f8f3d3fd5c699}{get\+Old\+\_\+\+Client}} () const
+\item 
+bool \mbox{\hyperlink{class_client_a967e4d03f86ca6c2551dea7a1452d49d}{get\+Present}} () const
+\item 
+int \mbox{\hyperlink{class_client_ade742a07327d4b06302c78ab2baee35e}{get\+Group\+Size}} () const
+\item 
+std\+::string \mbox{\hyperlink{class_client_a6865c5e1c8179faa4f3d2a47e500b772}{get\+Name}} () const
+\item 
+unsigned int \mbox{\hyperlink{class_client_a6adcaad29d9957aab4ebdd6c1078eee9}{get\+Int\+NIF}} () const
+\item 
+\mbox{\Hypertarget{class_client_a8f9177ded1a608c2ec482782f3097894}\label{class_client_a8f9177ded1a608c2ec482782f3097894}} 
+void {\bfseries set\+NIF} (unsigned int nif)
+\item 
+int \mbox{\hyperlink{class_client_a703287a2838b3dbbb8f7bb90f77bc1c4}{get\+Room\+Number}} () const
+\item 
+void \mbox{\hyperlink{class_client_a0f60fed4c8905e8ee397883e140caf35}{set\+Old\+\_\+\+Client}} (bool old\+\_\+client)
+\item 
+void \mbox{\hyperlink{class_client_a449cfe00e1aab1b3b9000f64b7c2de04}{set\+Present}} (bool present)
+\item 
+void \mbox{\hyperlink{class_client_a33e215909713741a1c30779f34e79347}{set\+Name}} (std\+::string name)
+\item 
+void \mbox{\hyperlink{class_client_a65746f57e0367cb18b00aa2540d7f4de}{set\+Group\+Size}} (int group\+\_\+size)
+\item 
+void \mbox{\hyperlink{class_client_a60c553ce4ba03625cc34e4e44be31367}{set\+Room\+Number}} (int room\+\_\+number)
+\item 
+\mbox{\Hypertarget{class_client_aca87883e36a816da93abc1a1c2dbcefa}\label{class_client_aca87883e36a816da93abc1a1c2dbcefa}} 
+void {\bfseries set\+Stays} (unsigned int stays)
+\item 
+\mbox{\Hypertarget{class_client_a960b3568d7b4d2fcce5cd39c9ad6f245}\label{class_client_a960b3568d7b4d2fcce5cd39c9ad6f245}} 
+unsigned int {\bfseries get\+Stays} () const
+\item 
+\mbox{\Hypertarget{class_client_ae570d319a846af3f016e9be7c8adc8a4}\label{class_client_ae570d319a846af3f016e9be7c8adc8a4}} 
+double {\bfseries get\+Promotion} () const
+\item 
+\mbox{\Hypertarget{class_client_a17179e1bda48064a103567c64c115cd5}\label{class_client_a17179e1bda48064a103567c64c115cd5}} 
+void {\bfseries set\+Promotion} (double promo)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class that defines the clients It defines his name, nif number If it\textquotesingle{}s an old client or not, if it\textquotesingle{}s present right now The group size of the reservation and the room\+\_\+number of the reservation 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_client_ae51af7aa6b8f591496a8f6a4a87a14bf}\label{class_client_ae51af7aa6b8f591496a8f6a4a87a14bf}} 
+\index{Client@{Client}!Client@{Client}}
+\index{Client@{Client}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{Client()}{Client()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Client\+::\+Client (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default \mbox{\hyperlink{class_client}{Client}} constructor \mbox{\Hypertarget{class_client_a83dbeb37d33b64f914c18f3123b4e5d3}\label{class_client_a83dbeb37d33b64f914c18f3123b4e5d3}} 
+\index{Client@{Client}!Client@{Client}}
+\index{Client@{Client}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{Client()}{Client()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Client\+::\+Client (\begin{DoxyParamCaption}\item[{std\+::string}]{name,  }\item[{int}]{group\+\_\+size,  }\item[{unsigned int}]{nif,  }\item[{unsigned int}]{stays }\end{DoxyParamCaption})}
+
+\mbox{\hyperlink{class_client}{Client}} constructor Create the client with his name, nif number and group\+\_\+size 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_client_ade742a07327d4b06302c78ab2baee35e}\label{class_client_ade742a07327d4b06302c78ab2baee35e}} 
+\index{Client@{Client}!getGroupSize@{getGroupSize}}
+\index{getGroupSize@{getGroupSize}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{getGroupSize()}{getGroupSize()}}
+{\footnotesize\ttfamily int Client\+::get\+Group\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Class Function Return the integer value of client\textquotesingle{}s group size \mbox{\Hypertarget{class_client_a6adcaad29d9957aab4ebdd6c1078eee9}\label{class_client_a6adcaad29d9957aab4ebdd6c1078eee9}} 
+\index{Client@{Client}!getIntNIF@{getIntNIF}}
+\index{getIntNIF@{getIntNIF}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{getIntNIF()}{getIntNIF()}}
+{\footnotesize\ttfamily unsigned int Client\+::get\+Int\+NIF (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Class Function Return nif number \mbox{\Hypertarget{class_client_a6865c5e1c8179faa4f3d2a47e500b772}\label{class_client_a6865c5e1c8179faa4f3d2a47e500b772}} 
+\index{Client@{Client}!getName@{getName}}
+\index{getName@{getName}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily std\+::string Client\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Class Function Return the value of client\textquotesingle{}s name \mbox{\Hypertarget{class_client_ae1bb9fad5c5141a9ff6f8f3d3fd5c699}\label{class_client_ae1bb9fad5c5141a9ff6f8f3d3fd5c699}} 
+\index{Client@{Client}!getOld\_Client@{getOld\_Client}}
+\index{getOld\_Client@{getOld\_Client}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{getOld\_Client()}{getOld\_Client()}}
+{\footnotesize\ttfamily bool Client\+::get\+Old\+\_\+\+Client (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Class Function Return the boolean old\+\_\+client \mbox{\Hypertarget{class_client_a967e4d03f86ca6c2551dea7a1452d49d}\label{class_client_a967e4d03f86ca6c2551dea7a1452d49d}} 
+\index{Client@{Client}!getPresent@{getPresent}}
+\index{getPresent@{getPresent}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{getPresent()}{getPresent()}}
+{\footnotesize\ttfamily bool Client\+::get\+Present (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Class Function Return the boolean present \mbox{\Hypertarget{class_client_a703287a2838b3dbbb8f7bb90f77bc1c4}\label{class_client_a703287a2838b3dbbb8f7bb90f77bc1c4}} 
+\index{Client@{Client}!getRoomNumber@{getRoomNumber}}
+\index{getRoomNumber@{getRoomNumber}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{getRoomNumber()}{getRoomNumber()}}
+{\footnotesize\ttfamily int Client\+::get\+Room\+Number (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Class Function Return the value of client\textquotesingle{}s room number \mbox{\Hypertarget{class_client_a23ca11751db0bfcfca135ad74a3416dd}\label{class_client_a23ca11751db0bfcfca135ad74a3416dd}} 
+\index{Client@{Client}!operator==@{operator==}}
+\index{operator==@{operator==}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Client\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_client}{Client}} \&}]{client }\end{DoxyParamCaption}) const}
+
+Class Operator == Compare two different clients True if nif number its equal \mbox{\Hypertarget{class_client_a65746f57e0367cb18b00aa2540d7f4de}\label{class_client_a65746f57e0367cb18b00aa2540d7f4de}} 
+\index{Client@{Client}!setGroupSize@{setGroupSize}}
+\index{setGroupSize@{setGroupSize}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{setGroupSize()}{setGroupSize()}}
+{\footnotesize\ttfamily void Client\+::set\+Group\+Size (\begin{DoxyParamCaption}\item[{int}]{group\+\_\+size }\end{DoxyParamCaption})}
+
+Class Function 
+\begin{DoxyParams}{Parameters}
+{\em groupsize} & Set the the client\textquotesingle{}s group\+\_\+size as equal to the value of the argument group\+\_\+size \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_client_a33e215909713741a1c30779f34e79347}\label{class_client_a33e215909713741a1c30779f34e79347}} 
+\index{Client@{Client}!setName@{setName}}
+\index{setName@{setName}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{setName()}{setName()}}
+{\footnotesize\ttfamily void Client\+::set\+Name (\begin{DoxyParamCaption}\item[{std\+::string}]{name }\end{DoxyParamCaption})}
+
+Class Function 
+\begin{DoxyParams}{Parameters}
+{\em name} & Set the client\textquotesingle{}s name as equal to the string argument name \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_client_a0f60fed4c8905e8ee397883e140caf35}\label{class_client_a0f60fed4c8905e8ee397883e140caf35}} 
+\index{Client@{Client}!setOld\_Client@{setOld\_Client}}
+\index{setOld\_Client@{setOld\_Client}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{setOld\_Client()}{setOld\_Client()}}
+{\footnotesize\ttfamily void Client\+::set\+Old\+\_\+\+Client (\begin{DoxyParamCaption}\item[{bool}]{old\+\_\+client }\end{DoxyParamCaption})}
+
+Class Function 
+\begin{DoxyParams}{Parameters}
+{\em old\+\_\+client} & Set the old\+\_\+client as equal to the argument old\+\_\+client \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_client_a449cfe00e1aab1b3b9000f64b7c2de04}\label{class_client_a449cfe00e1aab1b3b9000f64b7c2de04}} 
+\index{Client@{Client}!setPresent@{setPresent}}
+\index{setPresent@{setPresent}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{setPresent()}{setPresent()}}
+{\footnotesize\ttfamily void Client\+::set\+Present (\begin{DoxyParamCaption}\item[{bool}]{present }\end{DoxyParamCaption})}
+
+Class Function 
+\begin{DoxyParams}{Parameters}
+{\em present} & Set the class\textquotesingle{} variable \char`\"{}present\char`\"{} as equal to the argument \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_client_a60c553ce4ba03625cc34e4e44be31367}\label{class_client_a60c553ce4ba03625cc34e4e44be31367}} 
+\index{Client@{Client}!setRoomNumber@{setRoomNumber}}
+\index{setRoomNumber@{setRoomNumber}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{setRoomNumber()}{setRoomNumber()}}
+{\footnotesize\ttfamily void Client\+::set\+Room\+Number (\begin{DoxyParamCaption}\item[{int}]{room\+\_\+number }\end{DoxyParamCaption})}
+
+Class Function 
+\begin{DoxyParams}{Parameters}
+{\em room\+\_\+number} & Set the client\textquotesingle{}s room number to the value of the argument room number \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Client.\+h\item 
+Client.\+cpp\end{DoxyCompactItemize}

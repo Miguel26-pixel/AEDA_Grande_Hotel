@@ -1,0 +1,177 @@
+\hypertarget{class_employee}{}\doxysection{Employee Class Reference}
+\label{class_employee}\index{Employee@{Employee}}
+
+
+{\ttfamily \#include $<$Employee.\+h$>$}
+
+Inheritance diagram for Employee\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_employee}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_employee_aa35d91fe73554cf7c24f6c625aea4c02}{Employee}} (std\+::string name, int nif, int work\+\_\+years, double salary)
+\item 
+\mbox{\hyperlink{class_employee_abed56e9c007fff2bfe27ca87251baaf2}{$\sim$\+Employee}} ()
+\item 
+virtual std\+::string \mbox{\hyperlink{class_employee_ac8031b60ab95fe3d1aa427f8ae2c8a87}{employee\+Role}} ()
+\item 
+std\+::string \mbox{\hyperlink{class_employee_a72d9305f328548a928929154dab5d2b7}{get\+Name}} ()
+\item 
+int \mbox{\hyperlink{class_employee_a37063b7b0ac377c7f7a1706aab8d1e7a}{get\+NIF}} ()
+\item 
+int \mbox{\hyperlink{class_employee_a3ab4367647ea570cc9931765273a8fd6}{get\+Work\+Years}} ()
+\item 
+double \mbox{\hyperlink{class_employee_a90bba58cb74e7956cc133e93b4d74cb8}{get\+Salary}} ()
+\item 
+\mbox{\Hypertarget{class_employee_ae3659cf8b4cb024ba10ce0734914cc69}\label{class_employee_ae3659cf8b4cb024ba10ce0734914cc69}} 
+double {\bfseries get\+Value\+Promotion} (std\+::string roomtype)
+\item 
+void \mbox{\hyperlink{class_employee_adba90764da59390b7fb346e5ef3bc69d}{set\+Name}} (std\+::string name)
+\item 
+void \mbox{\hyperlink{class_employee_a2a59a18912e4ba65cd6590cf35ea6188}{set\+NIF}} (int nif)
+\item 
+void \mbox{\hyperlink{class_employee_a6e01881f1e7f5f436c6d72d4ac0c689c}{set\+Work\+Years}} (int work\+\_\+years)
+\item 
+void \mbox{\hyperlink{class_employee_a1874b9c4d606ff5fe224d8446fc8c3f8}{set\+Salary}} (double salary)
+\item 
+bool \mbox{\hyperlink{class_employee_ae273874c202765ed4e308c5a75a54dfe}{operator==}} (\mbox{\hyperlink{class_employee}{Employee}} employee)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class \mbox{\hyperlink{class_employee}{Employee}} Class to create employees 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_employee_aa35d91fe73554cf7c24f6c625aea4c02}\label{class_employee_aa35d91fe73554cf7c24f6c625aea4c02}} 
+\index{Employee@{Employee}!Employee@{Employee}}
+\index{Employee@{Employee}!Employee@{Employee}}
+\doxysubsubsection{\texorpdfstring{Employee()}{Employee()}}
+{\footnotesize\ttfamily Employee\+::\+Employee (\begin{DoxyParamCaption}\item[{std\+::string}]{name,  }\item[{int}]{nif,  }\item[{int}]{work\+\_\+years,  }\item[{double}]{salary }\end{DoxyParamCaption})}
+
+\mbox{\hyperlink{class_employee}{Employee}} constructor 
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+{\em nif} & \\
+\hline
+{\em work\+\_\+years} & \\
+\hline
+{\em salary} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_employee_abed56e9c007fff2bfe27ca87251baaf2}\label{class_employee_abed56e9c007fff2bfe27ca87251baaf2}} 
+\index{Employee@{Employee}!````~Employee@{$\sim$Employee}}
+\index{````~Employee@{$\sim$Employee}!Employee@{Employee}}
+\doxysubsubsection{\texorpdfstring{$\sim$Employee()}{~Employee()}}
+{\footnotesize\ttfamily Employee\+::$\sim$\+Employee (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default destructor 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_employee_ac8031b60ab95fe3d1aa427f8ae2c8a87}\label{class_employee_ac8031b60ab95fe3d1aa427f8ae2c8a87}} 
+\index{Employee@{Employee}!employeeRole@{employeeRole}}
+\index{employeeRole@{employeeRole}!Employee@{Employee}}
+\doxysubsubsection{\texorpdfstring{employeeRole()}{employeeRole()}}
+{\footnotesize\ttfamily virtual std\+::string Employee\+::employee\+Role (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+Virtual class function Return the role of the employee ex. \mbox{\hyperlink{class_manager}{Manager}} 
+
+Reimplemented in \mbox{\hyperlink{class_manager_aee074ab705796fa07f4ce44bc6008cfa}{Manager}}, \mbox{\hyperlink{class_cleaning_a26ef83e0636562459b94534f9440da21}{Cleaning}}, \mbox{\hyperlink{class_responsible_a97b4879eb168178b57499ed4b67f2ad5}{Responsible}}, and \mbox{\hyperlink{class_reception_ae0027bb2471947927eb60479d9d5e326}{Reception}}.
+
+\mbox{\Hypertarget{class_employee_a72d9305f328548a928929154dab5d2b7}\label{class_employee_a72d9305f328548a928929154dab5d2b7}} 
+\index{Employee@{Employee}!getName@{getName}}
+\index{getName@{getName}!Employee@{Employee}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily std\+::string Employee\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Class function Return the employee\textquotesingle{}s name
+
+Return the employee\textquotesingle{}s name \mbox{\Hypertarget{class_employee_a37063b7b0ac377c7f7a1706aab8d1e7a}\label{class_employee_a37063b7b0ac377c7f7a1706aab8d1e7a}} 
+\index{Employee@{Employee}!getNIF@{getNIF}}
+\index{getNIF@{getNIF}!Employee@{Employee}}
+\doxysubsubsection{\texorpdfstring{getNIF()}{getNIF()}}
+{\footnotesize\ttfamily int Employee\+::get\+NIF (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Class function Return the nif
+
+Return the nif \mbox{\Hypertarget{class_employee_a90bba58cb74e7956cc133e93b4d74cb8}\label{class_employee_a90bba58cb74e7956cc133e93b4d74cb8}} 
+\index{Employee@{Employee}!getSalary@{getSalary}}
+\index{getSalary@{getSalary}!Employee@{Employee}}
+\doxysubsubsection{\texorpdfstring{getSalary()}{getSalary()}}
+{\footnotesize\ttfamily double Employee\+::get\+Salary (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Class function Return employee\textquotesingle{}s salary
+
+Return employee\textquotesingle{}s salary \mbox{\Hypertarget{class_employee_a3ab4367647ea570cc9931765273a8fd6}\label{class_employee_a3ab4367647ea570cc9931765273a8fd6}} 
+\index{Employee@{Employee}!getWorkYears@{getWorkYears}}
+\index{getWorkYears@{getWorkYears}!Employee@{Employee}}
+\doxysubsubsection{\texorpdfstring{getWorkYears()}{getWorkYears()}}
+{\footnotesize\ttfamily int Employee\+::get\+Work\+Years (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Class function Return the number of years the employee has worked already
+
+Return the number of years the employee has worked already \mbox{\Hypertarget{class_employee_ae273874c202765ed4e308c5a75a54dfe}\label{class_employee_ae273874c202765ed4e308c5a75a54dfe}} 
+\index{Employee@{Employee}!operator==@{operator==}}
+\index{operator==@{operator==}!Employee@{Employee}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Employee\+::operator== (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_employee}{Employee}}}]{employee }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Class operator 
+\begin{DoxyParams}{Parameters}
+{\em employee} & Compare two different employees Return true if name and nif of the two are equal \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_employee_adba90764da59390b7fb346e5ef3bc69d}\label{class_employee_adba90764da59390b7fb346e5ef3bc69d}} 
+\index{Employee@{Employee}!setName@{setName}}
+\index{setName@{setName}!Employee@{Employee}}
+\doxysubsubsection{\texorpdfstring{setName()}{setName()}}
+{\footnotesize\ttfamily void Employee\+::set\+Name (\begin{DoxyParamCaption}\item[{std\+::string}]{name }\end{DoxyParamCaption})}
+
+Class function 
+\begin{DoxyParams}{Parameters}
+{\em name} & Set the employee\textquotesingle{}s name as argument \char`\"{}name\char`\"{}\\
+\hline
+\end{DoxyParams}
+Set the employee\textquotesingle{}s name as argument \char`\"{}name\char`\"{} \mbox{\Hypertarget{class_employee_a2a59a18912e4ba65cd6590cf35ea6188}\label{class_employee_a2a59a18912e4ba65cd6590cf35ea6188}} 
+\index{Employee@{Employee}!setNIF@{setNIF}}
+\index{setNIF@{setNIF}!Employee@{Employee}}
+\doxysubsubsection{\texorpdfstring{setNIF()}{setNIF()}}
+{\footnotesize\ttfamily void Employee\+::set\+NIF (\begin{DoxyParamCaption}\item[{int}]{nif }\end{DoxyParamCaption})}
+
+Class function 
+\begin{DoxyParams}{Parameters}
+{\em nif} & Set the employee\textquotesingle{}s nif as argument \char`\"{}nif\char`\"{}\\
+\hline
+\end{DoxyParams}
+Set the employee\textquotesingle{}s nif as argument \char`\"{}nif\char`\"{} \mbox{\Hypertarget{class_employee_a1874b9c4d606ff5fe224d8446fc8c3f8}\label{class_employee_a1874b9c4d606ff5fe224d8446fc8c3f8}} 
+\index{Employee@{Employee}!setSalary@{setSalary}}
+\index{setSalary@{setSalary}!Employee@{Employee}}
+\doxysubsubsection{\texorpdfstring{setSalary()}{setSalary()}}
+{\footnotesize\ttfamily void Employee\+::set\+Salary (\begin{DoxyParamCaption}\item[{double}]{salary }\end{DoxyParamCaption})}
+
+Class function 
+\begin{DoxyParams}{Parameters}
+{\em salary} & Set the employee\textquotesingle{}s salary as argument \char`\"{}salary\char`\"{}\\
+\hline
+\end{DoxyParams}
+Set the employee\textquotesingle{}s salary as argument \char`\"{}salary\char`\"{} \mbox{\Hypertarget{class_employee_a6e01881f1e7f5f436c6d72d4ac0c689c}\label{class_employee_a6e01881f1e7f5f436c6d72d4ac0c689c}} 
+\index{Employee@{Employee}!setWorkYears@{setWorkYears}}
+\index{setWorkYears@{setWorkYears}!Employee@{Employee}}
+\doxysubsubsection{\texorpdfstring{setWorkYears()}{setWorkYears()}}
+{\footnotesize\ttfamily void Employee\+::set\+Work\+Years (\begin{DoxyParamCaption}\item[{int}]{work\+\_\+years }\end{DoxyParamCaption})}
+
+Class function 
+\begin{DoxyParams}{Parameters}
+{\em work\+\_\+years} & Set the employee\textquotesingle{}s work\+\_\+years as argument \char`\"{}work\+\_\+years\char`\"{}\\
+\hline
+\end{DoxyParams}
+Set the employee\textquotesingle{}s work\+\_\+years as argument \char`\"{}work\+\_\+years\char`\"{} 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Employee.\+h\item 
+Employee.\+cpp\end{DoxyCompactItemize}

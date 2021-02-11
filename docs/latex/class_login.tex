@@ -1,0 +1,59 @@
+\hypertarget{class_login}{}\doxysection{Login Class Reference}
+\label{class_login}\index{Login@{Login}}
+
+
+{\ttfamily \#include $<$Login.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_login_a4847f3e07e43b540d3339392346f87ff}{Login}} ()
+\item 
+bool \mbox{\hyperlink{class_login_a19436c7e9ff4af420dd6a2bb094ca87a}{user\+Login}} (\mbox{\hyperlink{class_data_base}{Data\+Base}} $\ast$database, std\+::string login\+\_\+name, unsigned int login\+\_\+nif)
+\item 
+\mbox{\hyperlink{class_employee}{Employee}} $\ast$ \mbox{\hyperlink{class_login_ad4c01e35352c6e449ec7ca0a877049c6}{get\+User}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class \mbox{\hyperlink{class_login}{Login}} Class to the user login into the site 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_login_a4847f3e07e43b540d3339392346f87ff}\label{class_login_a4847f3e07e43b540d3339392346f87ff}} 
+\index{Login@{Login}!Login@{Login}}
+\index{Login@{Login}!Login@{Login}}
+\doxysubsubsection{\texorpdfstring{Login()}{Login()}}
+{\footnotesize\ttfamily Login\+::\+Login (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default \mbox{\hyperlink{class_login}{Login}} constructor 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_login_ad4c01e35352c6e449ec7ca0a877049c6}\label{class_login_ad4c01e35352c6e449ec7ca0a877049c6}} 
+\index{Login@{Login}!getUser@{getUser}}
+\index{getUser@{getUser}!Login@{Login}}
+\doxysubsubsection{\texorpdfstring{getUser()}{getUser()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_employee}{Employee}} $\ast$ Login\+::get\+User (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Class function Return the user
+
+Return the user \mbox{\Hypertarget{class_login_a19436c7e9ff4af420dd6a2bb094ca87a}\label{class_login_a19436c7e9ff4af420dd6a2bb094ca87a}} 
+\index{Login@{Login}!userLogin@{userLogin}}
+\index{userLogin@{userLogin}!Login@{Login}}
+\doxysubsubsection{\texorpdfstring{userLogin()}{userLogin()}}
+{\footnotesize\ttfamily bool Login\+::user\+Login (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_data_base}{Data\+Base}} $\ast$}]{database,  }\item[{std\+::string}]{login\+\_\+name,  }\item[{unsigned int}]{login\+\_\+nif }\end{DoxyParamCaption})}
+
+Class Function to validate the user 
+\begin{DoxyParams}{Parameters}
+{\em database} & \\
+\hline
+{\em login\+\_\+name} & \\
+\hline
+{\em login\+\_\+nif} & Return true if the employee exists Throw exception if false\\
+\hline
+\end{DoxyParams}
+Return true if the employee exists Throw exception if false 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Login.\+h\item 
+Login.\+cpp\end{DoxyCompactItemize}

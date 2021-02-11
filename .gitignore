@@ -1,0 +1,9 @@
+.o
+.idea/
+cmake-build-debug/CMakeFiles/
+cmake-build-debug/cmake_install.cmake
+cmake-build-debug/grande_hotel_central.cbp
+cmake-build-debug/grande_hotel_central.exe
+cmake-build-debug/grande_hotel_central.exe.stackdump
+cmake-build-debug/Makefile
+cmake-build-debug/CMakeCache.txt

@@ -1,0 +1,21 @@
+Type: Cleaning
+Quality: 3
+Price: 10
+Provider: SraJulia
+Rating: 6
+Stock: 10
+-----------------------------------------------------
+Type: Hygiene
+Quality: 3
+Price: 1
+Provider: Ada
+Rating: 3
+Stock: 20
+-----------------------------------------------------
+Type: Cleaning
+Quality: 3
+Price: 13
+Provider: Quéte
+Rating: 6
+Stock: 13
+-----------------------------------------------------

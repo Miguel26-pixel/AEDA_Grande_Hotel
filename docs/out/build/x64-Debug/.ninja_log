@@ -1,0 +1,23 @@
+# ninja log v5
+19	1375	631463554	CMakeFiles/grande_hotel_central.dir/Client.cpp.obj	c7353616b726b75e
+41	1400	631463554	CMakeFiles/grande_hotel_central.dir/InputValidation.cpp.obj	9ae5185bae2aa0cf
+11	1501	631463554	CMakeFiles/grande_hotel_central.dir/Employee.cpp.obj	5bf5bd15621cb55e
+15	1569	631463554	CMakeFiles/grande_hotel_central.dir/Book.cpp.obj	d6ea5a89956dbd05
+37	1577	631463554	CMakeFiles/grande_hotel_central.dir/Login.cpp.obj	f0a95c7644a08a59
+1	1586	631463554	CMakeFiles/grande_hotel_central.dir/main.cpp.obj	9956241e1efaada0
+31	1809	631463555	CMakeFiles/grande_hotel_central.dir/Product.cpp.obj	d7311f2f9fbf0b82
+7	1822	631463555	CMakeFiles/grande_hotel_central.dir/Room.cpp.obj	a6df11677dba1a0e
+27	1886	631463555	CMakeFiles/grande_hotel_central.dir/DataBase.cpp.obj	d9755d8c340ccec3
+23	2038	631463555	CMakeFiles/grande_hotel_central.dir/Files.cpp.obj	8349f83efc6dabec
+1577	2698	631463556	CMakeFiles/grande_hotel_central.dir/Vehicle.cpp.obj	efa80893047629a8
+1502	2723	631463556	CMakeFiles/grande_hotel_central.dir/Date.cpp.obj	7a752ab3d15e152c
+1809	2856	631463556	CMakeFiles/grande_hotel_central.dir/ClientInitial.cpp.obj	200a6bdba9137c40
+1569	2865	631463556	CMakeFiles/grande_hotel_central.dir/Finances.cpp.obj	a73837b559310638
+1587	3046	631463556	CMakeFiles/grande_hotel_central.dir/BuyProduct.cpp.obj	6992b96fd2ee61ed
+1822	3478	0	CMakeFiles/Doxygen	dc3c702dc7b2df9a
+1401	3534	631463556	CMakeFiles/grande_hotel_central.dir/UserInterface.cpp.obj	d3e4d60db1f134c1
+1	930	631463612	CMakeFiles/grande_hotel_central.dir/Search.cpp.obj	5457be1158239fb9
+6	1131	0	CMakeFiles/Doxygen	dc3c702dc7b2df9a
+930	1533	631463612	grande_hotel_central.exe	b6995779196f3591
+0	997	0	CMakeFiles/Doxygen	dc3c702dc7b2df9a
+0	905	0	CMakeFiles/Doxygen	dc3c702dc7b2df9a

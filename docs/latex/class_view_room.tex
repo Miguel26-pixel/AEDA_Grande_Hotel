@@ -1,0 +1,110 @@
+\hypertarget{class_view_room}{}\doxysection{View\+Room Class Reference}
+\label{class_view_room}\index{ViewRoom@{ViewRoom}}
+
+
+{\ttfamily \#include $<$Room.\+h$>$}
+
+Inheritance diagram for View\+Room\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_view_room}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_view_room_a4d920865ae20618c2177e81f75110497}{View\+Room}} (int \mbox{\hyperlink{class_room_a4310313750cfae6b76b9982e81698223}{floor}}, int \mbox{\hyperlink{class_room_ace0776823076279027a43e37096f44a2}{number}}, \mbox{\hyperlink{class_data_base}{Data\+Base}} \&database)
+\item 
+\mbox{\hyperlink{class_view_room_ab751771d7bc9fa53beeee3c2469fba77}{View\+Room}} ()
+\item 
+virtual int \mbox{\hyperlink{class_view_room_ab23d75426cacdfe84428ea1ada9acac0}{get\+Cleaning\+\_\+products}} () const
+\item 
+virtual const double \mbox{\hyperlink{class_view_room_a746cfec92e6f075d25fca048752355d6}{get\+Base\+\_\+price}} () const
+\item 
+virtual std\+::string \mbox{\hyperlink{class_view_room_ad9badd90aa548247f1843da6d987c183}{Room\+Type}} ()
+\item 
+virtual const double \mbox{\hyperlink{class_view_room_ad35fa14917caa7f1f95f542eb2a3886c}{get\+Promotion}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Sub\+Class public of \mbox{\hyperlink{class_room}{Room}} Sub\+Class to create view rooms 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_view_room_a4d920865ae20618c2177e81f75110497}\label{class_view_room_a4d920865ae20618c2177e81f75110497}} 
+\index{ViewRoom@{ViewRoom}!ViewRoom@{ViewRoom}}
+\index{ViewRoom@{ViewRoom}!ViewRoom@{ViewRoom}}
+\doxysubsubsection{\texorpdfstring{ViewRoom()}{ViewRoom()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily View\+Room\+::\+View\+Room (\begin{DoxyParamCaption}\item[{int}]{floor,  }\item[{int}]{number,  }\item[{\mbox{\hyperlink{class_data_base}{Data\+Base}} \&}]{database }\end{DoxyParamCaption})}
+
+Sub\+Class constructor 
+\begin{DoxyParams}{Parameters}
+{\em floor} & \\
+\hline
+{\em number} & \\
+\hline
+{\em database} & Sub\+Class constructor \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_view_room_ab751771d7bc9fa53beeee3c2469fba77}\label{class_view_room_ab751771d7bc9fa53beeee3c2469fba77}} 
+\index{ViewRoom@{ViewRoom}!ViewRoom@{ViewRoom}}
+\index{ViewRoom@{ViewRoom}!ViewRoom@{ViewRoom}}
+\doxysubsubsection{\texorpdfstring{ViewRoom()}{ViewRoom()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily View\+Room\+::\+View\+Room (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default Sub\+Class 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_view_room_a746cfec92e6f075d25fca048752355d6}\label{class_view_room_a746cfec92e6f075d25fca048752355d6}} 
+\index{ViewRoom@{ViewRoom}!getBase\_price@{getBase\_price}}
+\index{getBase\_price@{getBase\_price}!ViewRoom@{ViewRoom}}
+\doxysubsubsection{\texorpdfstring{getBase\_price()}{getBase\_price()}}
+{\footnotesize\ttfamily const double View\+Room\+::get\+Base\+\_\+price (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Sub\+Class virtual function Return base\+\_\+price of no view rooms
+
+Return base\+\_\+price of view rooms 
+
+Reimplemented from \mbox{\hyperlink{class_room_a8fe21403310dfb09eb9be9ba0b9a2415}{Room}}.
+
+\mbox{\Hypertarget{class_view_room_ab23d75426cacdfe84428ea1ada9acac0}\label{class_view_room_ab23d75426cacdfe84428ea1ada9acac0}} 
+\index{ViewRoom@{ViewRoom}!getCleaning\_products@{getCleaning\_products}}
+\index{getCleaning\_products@{getCleaning\_products}!ViewRoom@{ViewRoom}}
+\doxysubsubsection{\texorpdfstring{getCleaning\_products()}{getCleaning\_products()}}
+{\footnotesize\ttfamily int View\+Room\+::get\+Cleaning\+\_\+products (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Sub\+Class virtual function Return cleaning products
+
+Return cleaning products 
+
+Reimplemented from \mbox{\hyperlink{class_room_a84fc41c358a601f4f3a98706abbeef0e}{Room}}.
+
+\mbox{\Hypertarget{class_view_room_ad35fa14917caa7f1f95f542eb2a3886c}\label{class_view_room_ad35fa14917caa7f1f95f542eb2a3886c}} 
+\index{ViewRoom@{ViewRoom}!getPromotion@{getPromotion}}
+\index{getPromotion@{getPromotion}!ViewRoom@{ViewRoom}}
+\doxysubsubsection{\texorpdfstring{getPromotion()}{getPromotion()}}
+{\footnotesize\ttfamily const double View\+Room\+::get\+Promotion (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Sub\+Class virtual function Return promotion
+
+Return promotion 
+
+Reimplemented from \mbox{\hyperlink{class_room_a9243a58283b74b45250243cda070c1db}{Room}}.
+
+\mbox{\Hypertarget{class_view_room_ad9badd90aa548247f1843da6d987c183}\label{class_view_room_ad9badd90aa548247f1843da6d987c183}} 
+\index{ViewRoom@{ViewRoom}!RoomType@{RoomType}}
+\index{RoomType@{RoomType}!ViewRoom@{ViewRoom}}
+\doxysubsubsection{\texorpdfstring{RoomType()}{RoomType()}}
+{\footnotesize\ttfamily virtual std\+::string View\+Room\+::\+Room\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+Sub\+Class virtual function Return \char`\"{}\+View\+Room\char`\"{} 
+
+Reimplemented from \mbox{\hyperlink{class_room_a4ae1d82fd5f2a541fde217d271c1d868}{Room}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Room.\+h\item 
+Room.\+cpp\end{DoxyCompactItemize}

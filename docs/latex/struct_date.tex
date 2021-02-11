@@ -1,0 +1,98 @@
+\hypertarget{struct_date}{}\doxysection{Date Struct Reference}
+\label{struct_date}\index{Date@{Date}}
+
+
+{\ttfamily \#include $<$Date.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_date_a3b1d154b0e6f67e1dacfa563c9d4ed46}{Date}} (int d, int m, int y)
+\item 
+bool \mbox{\hyperlink{struct_date_adcb9cf4228deb6b626303210da3016a2}{operator==}} (\mbox{\hyperlink{struct_date}{Date}} date)
+\item 
+bool \mbox{\hyperlink{struct_date_a0ff449bcfa51a71c6c57a4dc164d6678}{operator$>$}} (\mbox{\hyperlink{struct_date}{Date}} date1)
+\item 
+\mbox{\Hypertarget{struct_date_aa28201f9b50776d336f98b7c371be699}\label{struct_date_aa28201f9b50776d336f98b7c371be699}} 
+int {\bfseries operator-\/} (\mbox{\hyperlink{struct_date}{Date}} date1)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{struct_date_a6c498dee79268960e000ec3deaa555ac}\label{struct_date_a6c498dee79268960e000ec3deaa555ac}} 
+unsigned int \mbox{\hyperlink{struct_date_a6c498dee79268960e000ec3deaa555ac}{day}}
+\begin{DoxyCompactList}\small\item\em day of the date \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{struct_date_af48402007169fe01234fe9bb9e7a1d2c}\label{struct_date_af48402007169fe01234fe9bb9e7a1d2c}} 
+unsigned int \mbox{\hyperlink{struct_date_af48402007169fe01234fe9bb9e7a1d2c}{month}}
+\begin{DoxyCompactList}\small\item\em month of the date \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{struct_date_afc014a1ae62e56be473144050201e62a}\label{struct_date_afc014a1ae62e56be473144050201e62a}} 
+unsigned int \mbox{\hyperlink{struct_date_afc014a1ae62e56be473144050201e62a}{year}}
+\begin{DoxyCompactList}\small\item\em year of the date \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{struct_date_ae91bdbc809212d1c216b9d2bbac7a515}{operator$<$$<$}} (std\+::ostream \&out, \mbox{\hyperlink{struct_date}{Date}} \&d)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Struct Represents a specific date day/month/year 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{struct_date_a3b1d154b0e6f67e1dacfa563c9d4ed46}\label{struct_date_a3b1d154b0e6f67e1dacfa563c9d4ed46}} 
+\index{Date@{Date}!Date@{Date}}
+\index{Date@{Date}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{Date()}{Date()}}
+{\footnotesize\ttfamily Date\+::\+Date (\begin{DoxyParamCaption}\item[{int}]{d,  }\item[{int}]{m,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+\mbox{\hyperlink{struct_date}{Date}} constructor 
+\begin{DoxyParams}{Parameters}
+{\em d} & \+: day \\
+\hline
+{\em m} & \+: month \\
+\hline
+{\em y} & \+: year\\
+\hline
+\end{DoxyParams}
+\mbox{\hyperlink{struct_date}{Date}} constructor 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{struct_date_adcb9cf4228deb6b626303210da3016a2}\label{struct_date_adcb9cf4228deb6b626303210da3016a2}} 
+\index{Date@{Date}!operator==@{operator==}}
+\index{operator==@{operator==}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Date\+::operator== (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_date}{Date}}}]{date }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\hyperlink{struct_date}{Date}} operator == Compare two diferent dates True if all date is equal \mbox{\Hypertarget{struct_date_a0ff449bcfa51a71c6c57a4dc164d6678}\label{struct_date_a0ff449bcfa51a71c6c57a4dc164d6678}} 
+\index{Date@{Date}!operator$>$@{operator$>$}}
+\index{operator$>$@{operator$>$}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{operator$>$()}{operator>()}}
+{\footnotesize\ttfamily bool Date\+::operator$>$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_date}{Date}}}]{date1 }\end{DoxyParamCaption})}
+
+\mbox{\hyperlink{struct_date}{Date}} operator $>$ 
+\begin{DoxyParams}{Parameters}
+{\em date1} & Compare two diferent dates True if the argument date is lower \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{struct_date_ae91bdbc809212d1c216b9d2bbac7a515}\label{struct_date_ae91bdbc809212d1c216b9d2bbac7a515}} 
+\index{Date@{Date}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Date@{Date}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out,  }\item[{\mbox{\hyperlink{struct_date}{Date}} \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Friend operator $<$$<$ 
+\begin{DoxyParams}{Parameters}
+{\em d} & \+: date to print \\
+\hline
+{\em out} & operator to print \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this struct was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Date.\+h\item 
+Date.\+cpp\end{DoxyCompactItemize}

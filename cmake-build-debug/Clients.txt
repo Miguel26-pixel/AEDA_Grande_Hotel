@@ -1,0 +1,32 @@
+Name: Gansini
+NIF: 123456789
+GroupSize: 1
+OldClient: 0
+Present: 0
+RoomNumber: -1
+Stays: 3
+-----------------------------------------------------
+Name: Gansi
+NIF: 123456789
+GroupSize: 1
+OldClient: 0
+Present: 0
+RoomNumber: -1
+Stays: 3
+-----------------------------------------------------
+Name: Gan
+NIF: 123456789
+GroupSize: 1
+OldClient: 0
+Present: 0
+RoomNumber: -1
+Stays: 3
+-----------------------------------------------------
+Name: Marga
+NIF: 12
+GroupSize: 1
+OldClient: 0
+Present: 0
+RoomNumber: -1
+Stays: 2
+-----------------------------------------------------

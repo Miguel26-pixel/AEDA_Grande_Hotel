@@ -1,0 +1,35 @@
+RoomType: ViewRoom
+RoomID: 11
+Available: 1
+Capacity: 3
+-----------------------------------------------------
+RoomType: SuiteRoom
+RoomID: 12
+Available: 1
+Capacity: 4
+-----------------------------------------------------
+RoomType: ViewRoom
+RoomID: 13
+Available: 1
+Capacity: 3
+-----------------------------------------------------
+RoomType: SuiteRoom
+RoomID: 21
+Available: 1
+Capacity: 4
+-----------------------------------------------------
+RoomType: NoViewRoom
+RoomID: 22
+Available: 1
+Capacity: 3
+-----------------------------------------------------
+RoomType: NoViewRoom
+RoomID: 23
+Available: 1
+Capacity: 3
+-----------------------------------------------------
+RoomType: ViewRoom
+RoomID: 31
+Available: 1
+Capacity: 3
+-----------------------------------------------------

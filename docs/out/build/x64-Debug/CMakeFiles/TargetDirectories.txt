@@ -1,0 +1,4 @@
+C:/Users/marga/Download/AEDa-Project/grande-hotel-central/out/build/x64-Debug/CMakeFiles/grande_hotel_central.dir
+C:/Users/marga/Download/AEDa-Project/grande-hotel-central/out/build/x64-Debug/CMakeFiles/Doxygen.dir
+C:/Users/marga/Download/AEDa-Project/grande-hotel-central/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/marga/Download/AEDa-Project/grande-hotel-central/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

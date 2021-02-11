@@ -1,0 +1,72 @@
+Name: Pedro
+NIF: 232323234
+GroupSize: 3
+OldClient: 0
+Present: 0
+RoomType: ViewRoom
+RoomID: 11
+Available: 1
+Capacity: 3
+Check-inDate: 02/02/2020
+Check-outDate: 03/03/2020
+-----------------------------------------------------
+Name: Pedro
+NIF: 232323239
+GroupSize: 3
+OldClient: 0
+Present: 0
+RoomType: ViewRoom
+RoomID: 11
+Available: 1
+Capacity: 3
+Check-inDate: 02/02/2020
+Check-outDate: 03/03/2020
+-----------------------------------------------------
+Name: Pedro
+NIF: 232323238
+GroupSize: 3
+OldClient: 0
+Present: 0
+RoomType: ViewRoom
+RoomID: 11
+Available: 1
+Capacity: 3
+Check-inDate: 02/02/2020
+Check-outDate: 03/03/2020
+-----------------------------------------------------
+Name: Pedro
+NIF: 232323237
+GroupSize: 3
+OldClient: 0
+Present: 0
+RoomType: ViewRoom
+RoomID: 11
+Available: 1
+Capacity: 3
+Check-inDate: 02/02/2020
+Check-outDate: 03/03/2020
+-----------------------------------------------------
+Name: Pedro
+NIF: 232323236
+GroupSize: 3
+OldClient: 0
+Present: 0
+RoomType: ViewRoom
+RoomID: 11
+Available: 1
+Capacity: 3
+Check-inDate: 02/02/2020
+Check-outDate: 03/03/2020
+-----------------------------------------------------
+Name: Pedro
+NIF: 232323235
+GroupSize: 4
+OldClient: 0
+Present: 0
+RoomType: ViewRoom
+RoomID: 11
+Available: 1
+Capacity: 3
+Check-inDate: 02/02/2020
+Check-outDate: 03/03/2020
+-----------------------------------------------------
